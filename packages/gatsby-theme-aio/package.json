@@ -95,7 +95,7 @@
     "gatsby-source-gdocs2md": "^1.0.0",
     "gatsby-transformer-remark": "^4.9.0",
     "https-browserify": "^1.0.0",
-    "mdx-embed": "^0.0.19",
+    "mdx-embed": "^1.0.0",
     "mobx": "^6.3.2",
     "path-browserify": "^1.0.1",
     "penpal": "^6.1.0",
