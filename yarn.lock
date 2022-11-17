@@ -182,7 +182,7 @@ __metadata:
     gatsby-plugin-react-helmet: ^5.19.0
     gatsby-plugin-sharp: ^4.19.0
     gatsby-remark-copy-linked-files: ^5.19.0
-    gatsby-remark-images: ^6.19.0
+    gatsby-remark-images: ^7.0.0
     gatsby-source-filesystem: ^4.19.0
     gatsby-transformer-remark: ^5.19.0
     gatsby-transformer-sharp: ^4.19.0
@@ -2478,6 +2478,15 @@ __metadata:
   dependencies:
     jimp: ^0.16.1
   checksum: 9620a80280ec363f57f3ce40184dd8d48d2684e9ec4239c8707027edb235da947c35435fa8994c0ae74471fbc12180b988a9c3a44988084ef468c2ad01cde74f
+  languageName: node
+  linkType: hard
+
+"@gatsbyjs/potrace@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@gatsbyjs/potrace@npm:2.3.0"
+  dependencies:
+    jimp-compact: ^0.16.1-2
+  checksum: 237d4ccb9ac1ee321f1b2351b48ad1082252af2c181634da634292ba8e4bb15cb56bdfec3984c5c2d203befe86e93058976d26f52c30dee46f994741ef4a7f30
   languageName: node
   linkType: hard
 
@@ -12676,6 +12685,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "gatsby-core-utils@npm:4.0.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.1.0
+    got: ^11.8.5
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: fae6ff3819ae80f9ce0e0f346d71e7ccf23b2257225ffc1919004058784534c3e483886c3bcb3d7d27d6f9a1d1f12d9d4baab52bff9bee134eb0dd800b1d128d
+  languageName: node
+  linkType: hard
+
 "gatsby-cypress@npm:^1.14.0":
   version: 1.14.0
   resolution: "gatsby-cypress@npm:1.14.0"
@@ -13052,15 +13084,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:^6.19.0":
-  version: 6.19.0
-  resolution: "gatsby-remark-images@npm:6.19.0"
+"gatsby-remark-images@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "gatsby-remark-images@npm:7.0.0"
   dependencies:
     "@babel/runtime": ^7.15.4
-    "@gatsbyjs/potrace": ^2.2.0
+    "@gatsbyjs/potrace": ^2.3.0
     chalk: ^4.1.2
     cheerio: ^1.0.0-rc.10
-    gatsby-core-utils: ^3.19.0
+    gatsby-core-utils: ^4.0.0
     is-relative-url: ^3.0.0
     lodash: ^4.17.21
     mdast-util-definitions: ^4.0.0
@@ -13068,9 +13100,9 @@ __metadata:
     unist-util-select: ^3.0.4
     unist-util-visit-parents: ^3.1.1
   peerDependencies:
-    gatsby: ^4.0.0-next
-    gatsby-plugin-sharp: ^4.0.0-next
-  checksum: 60766dd442f51a82fad7a3b66a722dd59a7b345e6a45cc690120a1c2156f9984f9599e61bbdb44a43e367bfb53a61871bf4d6a2f18ea020afade188f5713ad4e
+    gatsby: ^5.0.0-next
+    gatsby-plugin-sharp: ^5.0.0-next
+  checksum: 3b66b5b3b44a56e6d8cbaa68f3d73c2d670a9dc2a240b30be143207f900d7bfd9ce56642ff05aecc3542e6ee9183cff021dced4d3dca517ec92fa9c5d4d53d31
   languageName: node
   linkType: hard
 
@@ -15483,6 +15515,13 @@ __metadata:
     merge-stream: ^2.0.0
     supports-color: ^8.0.0
   checksum: 98cd68b696781caed61c983a3ee30bf880b5bd021c01d98f47b143d4362b85d0737f8523761e2713d45e18b4f9a2b98af1eaee77afade4111bb65c77d6f7c980
+  languageName: node
+  linkType: hard
+
+"jimp-compact@npm:^0.16.1-2":
+  version: 0.16.1
+  resolution: "jimp-compact@npm:0.16.1"
+  checksum: 5a1c62d70881b31f79ea65fecfe03617be0eb56139bc451f37e8972365c99ac3b52c5176c446ff27144c98ab664a99107ae08d347044e94e1de637f165b41a57
   languageName: node
   linkType: hard
 
