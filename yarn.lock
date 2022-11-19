@@ -137,7 +137,7 @@ __metadata:
     "@mdx-js/mdx": 1.6.22
     "@mdx-js/react": 1.6.22
     "@spectrum-css/accordion": 3.0.24
-    "@spectrum-css/actionbutton": 2.0.3
+    "@spectrum-css/actionbutton": 3.0.1
     "@spectrum-css/actiongroup": ^2.0.0
     "@spectrum-css/assetlist": 3.0.24
     "@spectrum-css/badge": ^1.0.20
@@ -5885,13 +5885,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@spectrum-css/actionbutton@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@spectrum-css/actionbutton@npm:2.0.3"
+"@spectrum-css/actionbutton@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/actionbutton@npm:3.0.1"
   peerDependencies:
     "@spectrum-css/icon": ^3.0.22
-    "@spectrum-css/tokens": ^1.0.1
-  checksum: 111e14f911d8fff5a8faac5fedf616c5bd49eafccc1458825e61d7101bcc62bd9589c626952a30ddd8eb619cd370d87d06b4db755d874272f925c331e0e058c3
+    "@spectrum-css/tokens": ^4.0.0
+  checksum: 1710f9cfcfa00fb03d45423e82e744802d1f529d7d83fc5d2ab4c35e08892eabd7f381589b1fbcd88ec69bee79de7836b89cbdaf0cf1ca9e76b6a941ebf02f27
   languageName: node
   linkType: hard
 
