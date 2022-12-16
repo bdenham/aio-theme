@@ -152,7 +152,7 @@ __metadata:
     "@spectrum-css/link": 3.1.23
     "@spectrum-css/menu": 4.0.4
     "@spectrum-css/modal": 3.0.23
-    "@spectrum-css/picker": 1.2.11
+    "@spectrum-css/picker": 1.2.14
     "@spectrum-css/popover": 5.0.18
     "@spectrum-css/progresscircle": 1.0.23
     "@spectrum-css/search": 4.2.12
@@ -6071,15 +6071,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@spectrum-css/picker@npm:1.2.11":
-  version: 1.2.11
-  resolution: "@spectrum-css/picker@npm:1.2.11"
+"@spectrum-css/picker@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@spectrum-css/picker@npm:1.2.14"
   peerDependencies:
     "@spectrum-css/icon": ^3.0.21
     "@spectrum-css/menu": ^4.0.0
     "@spectrum-css/popover": ^5.0.0
     "@spectrum-css/vars": ^8.0.0
-  checksum: b33ec2fbea13ac7a6a9715e9c0f1ca335dd041b6b6acc67348e0950596187e2409f5daff7383de30a133e9c7002e8c9c051d52f134a68c7bf59a3ea793320ac0
+  checksum: 7416ac265790bad1ecdcc188755c4bcab7a1210fa588fa03f0449741e71dc743e3b5fb9774e7576e277bb6d42f772b7901bf4195279d5dc30f855ed0a4ed38d9
   languageName: node
   linkType: hard
 
