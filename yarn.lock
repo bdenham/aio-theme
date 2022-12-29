@@ -170,7 +170,7 @@ __metadata:
     await-exec: ^0.1.2
     builtin-status-codes: ^3.0.0
     classnames: ^2.3.1
-    core-js: ^3.23.5
+    core-js: ^3.27.1
     dotenv: ^16.0.1
     gatsby: ^4.19.1
     gatsby-plugin-algolia: ^0.26.0
@@ -9679,10 +9679,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.16.3, core-js@npm:^3.22.3, core-js@npm:^3.23.5":
+"core-js@npm:^3.16.3, core-js@npm:^3.22.3":
   version: 3.23.5
   resolution: "core-js@npm:3.23.5"
   checksum: 0277d46b151126c5d90411e8e6b0d338abe2aaa695a132c360203a3772c620f849622c4fab8bfd7a46eec6933d5fe90f32f7167779d419bda699ff7808605757
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.27.1":
+  version: 3.27.1
+  resolution: "core-js@npm:3.27.1"
+  checksum: d50b5f88aea4302512ad9446c18e90f4d35dea1e6d8d3f87337690677061565ff11a670f1e0c87de57aa6074375fbb25ed5784076c040d3c4de8b4bce7d2ebeb
   languageName: node
   linkType: hard
 
