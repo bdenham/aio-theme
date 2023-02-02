@@ -184,7 +184,7 @@ __metadata:
     gatsby-remark-copy-linked-files: ^5.19.0
     gatsby-remark-images: ^6.19.0
     gatsby-source-filesystem: ^4.19.0
-    gatsby-transformer-remark: ^5.19.0
+    gatsby-transformer-remark: ^6.5.0
     gatsby-transformer-sharp: ^4.19.0
     https-browserify: ^1.0.0
     lmdb-store: ^1.6.14
@@ -1969,6 +1969,15 @@ __metadata:
   dependencies:
     regenerator-runtime: ^0.13.4
   checksum: 36dd736baba7164e82b3cc9d43e081f0cb2d05ff867ad39cac515d99546cee75b7f782018b02a3dcf5f2ef3d27f319faa68965fdfec49d4912c60c6002353a2e
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.20.7":
+  version: 7.20.13
+  resolution: "@babel/runtime@npm:7.20.13"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 09b7a97a05c80540db6c9e4ddf8c5d2ebb06cae5caf3a87e33c33f27f8c4d49d9c67a2d72f1570e796045288fad569f98a26ceba0c4f5fad2af84b6ad855c4fb
   languageName: node
   linkType: hard
 
@@ -12494,6 +12503,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^9.0.0, fs-extra@npm:^9.1.0":
   version: 9.1.0
   resolution: "fs-extra@npm:9.1.0"
@@ -12673,6 +12693,30 @@ __metadata:
     tmp: ^0.2.1
     xdg-basedir: ^4.0.0
   checksum: 80c1f069d29195636d211fc900e40db8dfb855c6221206cf2b4d401ac137d0c9df790938a9f3830d2ea3049157bca7c661b5b4ab07ac00bc6b71e3beb3c2254d
+  languageName: node
+  linkType: hard
+
+"gatsby-core-utils@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "gatsby-core-utils@npm:4.5.0"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^11.1.0
+    got: ^11.8.5
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 8186857b34ea5280d7b76f3f1876427ccd70e327b095326fb263a65a1ccab9838bc007c1d0114aef038f7dddd992358624e8a467ca5f5555495920e14c0b1142
   languageName: node
   linkType: hard
 
@@ -13137,7 +13181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-remark@npm:^5.1.1, gatsby-transformer-remark@npm:^5.19.0":
+"gatsby-transformer-remark@npm:^5.1.1":
   version: 5.19.0
   resolution: "gatsby-transformer-remark@npm:5.19.0"
   dependencies:
@@ -13166,6 +13210,38 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
   checksum: f585e364d9b59419a0ce8aae2d85481288e06561d1abdb30b549201d983f5a47d708614b9170b67513bbfb0d9ca8e74d6db718e03c0ad0e4172b1736c80da8d7
+  languageName: node
+  linkType: hard
+
+"gatsby-transformer-remark@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "gatsby-transformer-remark@npm:6.5.0"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    gatsby-core-utils: ^4.5.0
+    gray-matter: ^4.0.3
+    hast-util-raw: ^6.1.0
+    hast-util-to-html: ^7.1.3
+    lodash: ^4.17.21
+    mdast-util-to-hast: ^10.2.0
+    mdast-util-to-string: ^2.0.0
+    mdast-util-toc: ^5.1.0
+    remark: ^13.0.0
+    remark-footnotes: ^3.0.0
+    remark-gfm: ^1.0.0
+    remark-parse: ^9.0.0
+    remark-retext: ^4.0.0
+    remark-stringify: ^9.0.1
+    retext-english: ^3.0.4
+    sanitize-html: ^2.7.3
+    underscore.string: ^3.3.6
+    unified: ^9.2.2
+    unist-util-remove-position: ^3.0.0
+    unist-util-select: ^3.0.4
+    unist-util-visit: ^2.0.3
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: ad82a75625f97c09e45415b166e48b8af9d19ce9f88be8af19e0993e1b8e113c9ac14f6a576d6685eb153935b8f93ea66ca7ad16071a1786e1b73ff1d7796f8f
   languageName: node
   linkType: hard
 
@@ -14025,6 +14101,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hash-wasm@npm:^4.9.0":
+  version: 4.9.0
+  resolution: "hash-wasm@npm:4.9.0"
+  checksum: b8734247fb7f69941f6564179dd891b7de21aa5877b9e32a5c6d777c2ab45cf5a6b021ade2b0156ec780ac41188486d571d9d526ef8206dda1ad306c81112a8a
+  languageName: node
+  linkType: hard
+
 "hash.js@npm:^1.0.0, hash.js@npm:^1.0.3":
   version: 1.1.7
   resolution: "hash.js@npm:1.1.7"
@@ -14120,7 +14203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hast-util-raw@npm:^6.0.2":
+"hast-util-raw@npm:^6.0.2, hast-util-raw@npm:^6.1.0":
   version: 6.1.0
   resolution: "hast-util-raw@npm:6.1.0"
   dependencies:
@@ -14348,7 +14431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:^8.0.1":
+"htmlparser2@npm:^8.0.0, htmlparser2@npm:^8.0.1":
   version: 8.0.1
   resolution: "htmlparser2@npm:8.0.1"
   dependencies:
@@ -20901,6 +20984,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
+  languageName: node
+  linkType: hard
+
 "regenerator-runtime@npm:^0.13.3, regenerator-runtime@npm:^0.13.4, regenerator-runtime@npm:^0.13.7":
   version: 0.13.9
   resolution: "regenerator-runtime@npm:0.13.9"
@@ -21564,6 +21654,20 @@ __metadata:
     parse-srcset: ^1.0.2
     postcss: ^7.0.27
   checksum: 883cfe20e094b2861bffbbdf7dd4cb9dde5d7fe14b83b3d4a1e22160172126f9fd120cd9c9a0257a473bfe824daec92a29bebd1712d5e08437add14f6846d871
+  languageName: node
+  linkType: hard
+
+"sanitize-html@npm:^2.7.3":
+  version: 2.9.0
+  resolution: "sanitize-html@npm:2.9.0"
+  dependencies:
+    deepmerge: ^4.2.2
+    escape-string-regexp: ^4.0.0
+    htmlparser2: ^8.0.0
+    is-plain-object: ^5.0.0
+    parse-srcset: ^1.0.2
+    postcss: ^8.3.11
+  checksum: ffe3445c365583265fc367528e7c780b7d3cf9d0bfd17ed66671b774c2ca0ff3739c77dea1e4ae0ccf531832c5eb3aca0303e835ecd932c25526421e920ff21f
   languageName: node
   linkType: hard
 
