@@ -158,7 +158,7 @@ __metadata:
     "@spectrum-css/search": 4.2.12
     "@spectrum-css/sidenav": 3.0.24
     "@spectrum-css/table": 4.0.19
-    "@spectrum-css/tabs": 3.2.18
+    "@spectrum-css/tabs": 3.2.30
     "@spectrum-css/textfield": 3.2.4
     "@spectrum-css/tooltip": 3.1.18
     "@spectrum-css/typography": 4.0.20
@@ -6154,14 +6154,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@spectrum-css/tabs@npm:3.2.18":
-  version: 3.2.18
-  resolution: "@spectrum-css/tabs@npm:3.2.18"
+"@spectrum-css/tabs@npm:3.2.30":
+  version: 3.2.30
+  resolution: "@spectrum-css/tabs@npm:3.2.30"
   peerDependencies:
     "@spectrum-css/menu": ^4.0.0
-    "@spectrum-css/picker": ^1.2.7
+    "@spectrum-css/picker": ^1.0.0 || ^2.0.0
     "@spectrum-css/vars": ^8.0.0
-  checksum: d328e7c4b2b8097541b8eb03ebdc138313ec85f419cf298ee4c619d5ff64657a4de1d403e1a94750bded5199c502cf63914d1dde84559a9aa6b3d185f3b38eb7
+  checksum: 02341ccf4af7109ae5be1fd91f7f519fd280232fa5e2073fbacc506b37850779e582a103f3f304d52238167746165841d5a52585adc290759c4d90a3cc5d90cb
   languageName: node
   linkType: hard
 
